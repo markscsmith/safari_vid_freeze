@@ -1,6 +1,6 @@
 # SafariVidFreeze
 
-Project to trigger bug in Safari that appears to occur on pages with lots of images/videos like reddit/imgr.  Scrolling through lists of animated gifs over a certain quantity seems to trigger a crash.  Bug reported to Apple: Jan 30, 2022 at 12:20 PM – FB9867162
+Project to trigger bug in Safari that appears to occur on pages with lots of images/videos like reddit/imgur.  Scrolling through lists of animated gifs over a certain quantity seems to trigger a crash.  Bug reported to Apple: Jan 30, 2022 at 12:20 PM – FB9867162
 
 Set up your angular environment and run "ng serve" to run the project.
 
@@ -14,6 +14,12 @@ For example, the video might drop to less than 1 fps for a few seconds or even m
 
 Sometimes this will require restarting the browser.  This also occurs on mobile Safari.  It has happened on every version of iOS iPadOS and macOS I've run
 since at least Jan 2022. This occurs on wifi, wired network, mobile.  
+
+Could this possibly be a bug in webkit?
+
+Please take all this with a grain of salt as I'm trying to remember all of the symptoms over a year after reporting it :)
+
+
 
 
 
